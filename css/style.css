@@ -1,0 +1,136 @@
+@font-face {
+    font-family: 'Star Jedi';
+    src: url('../includes/Starjedi.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Star Jedi Hollow';
+    src: url('../includes/Starjhol.ttf') format('truetype');
+}
+
+
+.square-image {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+}
+
+.carousel-image {
+    height: 300px;
+    margin: 30px;
+    object-fit: cover;
+}
+
+.navbar{
+    background-color: white;
+    padding: 20px;
+    height: 50px;
+    font-family: "Star Jedi";
+}
+
+.nav-item {
+    margin-right: 60px;
+}
+
+body {
+    background-color: #0e1a31;
+    color: white;
+    margin: 0px;
+    padding: 0px;
+}
+
+.main-header {
+    background-image: url('../img/night_sky.jpg');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    padding: 50px;
+    margin: 0;
+    height: 150px;
+    text-align: center;
+    font-family: 'Star Jedi', sans-serif;
+    position: relative;
+}
+
+.container-fluid {
+    padding: 0;
+}
+
+.main-content{
+    padding: 60px;
+}
+
+h1,h2,h3 {
+    font-family: 'Star Jedi', sans-serif;
+}
+
+h4, h5 {
+    font-family: 'Star Jedi Hollow', sans-serif;
+}
+
+.planet-content {
+    background-color: black;
+}
+
+.manufacturer-logo {
+    padding: 10px;
+}
+
+.carousel-inner{
+    margin-bottom: 30px;
+}
+
+.carousel-outer {
+    background-color: #6778ad;
+}
+
+.logo {
+    font-family: "Star Jedi Hollow";
+    font-size: 1400%;
+}
+
+.graph-outer {
+    background-color: white;
+    padding: 20px;
+    margin: 20px;
+    color: #333333;
+}
+
+.graph-inner {
+    width: 600px;
+    height: 600px;
+}
+
+.error-message {
+    color: red;
+}
+
+.search-results {
+    background-color: white;
+    padding: 20px;
+    margin: 20px;
+    color: #333333;
+}
+
+.search-bar {
+    background-color: #ad5309;
+    padding: 20px;
+}
+
+.film-carousel {
+    width: 400px;
+}
+
+.search {
+    background-color: white;
+    height: 595px;
+}
+
+.attribution {
+    font-size: 75%;
+    text-align: right;
+}
+
+.justify-text {
+    text-align: justify;
+}
